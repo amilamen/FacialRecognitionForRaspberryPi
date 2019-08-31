@@ -1,1 +1,2 @@
-# Facial recognition and attendances list display from web application using Vuejs
+# Facial recognition and attendances list using Python and MySQL from phpMyAdmin
+
