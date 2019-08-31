@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "recognition";
+$servername = "YOUR_HOSTNAME";
+$username = "YOUR_USERNAME";
+$password = "YOUR_PASSWORD";
+$dbname = "YOUR_DATABASE_NAME";
 
 try 
 {
