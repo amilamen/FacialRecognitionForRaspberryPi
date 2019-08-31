@@ -2,7 +2,7 @@ import cv2
 import sqlite3
 import requests
 
-url_update = 'http://192.168.1.102/FacialRecognition/updateProfile.php'
+url_update = 'http://YOUR_IP_ADDRESS/FacialRecognition/updateProfile.php'
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
 rec = cv2.face.LBPHFaceRecognizer_create()
