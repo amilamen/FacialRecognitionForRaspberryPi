@@ -4,7 +4,7 @@ import requests
 
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
-url_insert_update = 'http://192.168.1.102/FacialRecognition/insertOrUpdate.php'
+url_insert_update = 'http://YOUR_IP_ADDRESS/FacialRecognition/insertOrUpdate.php'
 
 
 def insert_or_update(user_id, name, age, gen):
